@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day-7</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: cursive;
+            }
+
+            #parent-div{
+                border: 2px solid red;
+                height: 600px;
+                width: 100%;
+            }
+
+            #info{
+                border: 2px solid green;
+                width: 30%;
+                margin-bottom: 20px;
+            }
+
+            .m-l{
+                margin-left: 100px;
+            }
+
+            table,td,th{
+                border: 2px solid black;
+                border-collapse: collapse;
+                text-align: center;
+            }
+
+            tr{
+                height: 100px;
+            }
+
+            th,td{
+                width: 300px;
+                font-style: larger;
+            }
+
+            table>tbody>tr>td:nth-child(1){
+                text-align: left;
+            }
+
+            .t-l{
+                text-align: left;
+            }
+
+            #cer{
+                border: 2px solid green;
+                height: 500px;
+                width: 100%;
+            }
+
+            .fs-l{
+                font-size: 28px;
+            }
+
+            form{
+                border: 2px solid black;
+                width: 20%;
+                text-align: center;
+                margin: auto;
+            }
+
+            form>input{
+                width: 170px;
+            }
+        </style>
+    </head>
+    <body bgcolor="lightblue">
+        <div id="parent-div">
+            <div id="info">
+                <div style="height: 200px; width: 200px;">
+                    <img style="width: 100%; height: 100%; border-radius: 50%;" 
+                        src="shekhar.png" alt="">
+                </div>
+                <h1>Shekhar Gavhade</h1>
+                <h4>9594759843</h4>
+                <h4>abc@gmail.com</h4>
+                <h4>Tech stack - MERN</h4>
+                <a href="https://github.com/Shekhar43/HTML1">gitHub - Shekhar</a><br>
+                <a href="https://www.linkedin.com/in/shekhar-gavhade-73857228a/">gitHub - Shekhar</a><br>
+            </div>
+
+            <div id="project">
+                <h1>Project</h1>
+                <div class="project">
+                    <h2>Amazon Clone</h2>
+                    <p>Tech stack - HTML</p>
+                    <p>Functionlities - 
+                        <ul class="m-l">
+                            <li>Auth</li>
+                            <li>Filters</li>
+                            <li>Sortings</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="project">
+                    <h2>Myntra Clone</h2>
+                    <p>Tech stack - HTML</p>
+                    <p>Functionlities - 
+                        <ul class="m-l">
+                            <li>Auth</li>
+                            <li>Filters</li>
+                            <li>Sortings</li>
+                        </ul>
+                    </p>    
+                </div>
+                <div class="project">
+                    <h2>Flipkart clone</h2>
+                    <p>Tech stack - HTML</p>
+                    <p>Functionalities -
+                    <ul class="m-l">
+                        <li>Auth</li>
+                        <li>Filters</li>
+                        <li>Sortings</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div id="education">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sr.No</th>
+                            <th>School Name</th>
+                            <th>Year Of Graduation</th>
+                            <th>% / Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="t-l">1</td>
+                            <td>Awdiz Institute</td>
+                            <td>2024</td>
+                            <td>A+</td>
+                        </tr>
+                        <tr>
+                            <td class="t-l">2</td>
+                            <td>Senior College</td>
+                            <td>2019</td>
+                            <td>90%</td>
+                        </tr>
+                        <tr>
+                            <td class="t-l">3</td>
+                            <td>College</td>
+                            <td>2015</td>
+                            <td>90%</td>
+                        </tr>
+                        <tr>
+                            <td class="t-l">4</td>
+                            <td>My School</td>
+                            <td>2013</td>
+                            <td>90%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="cer">
+                <ol class="m-l fs-l">
+                    <li>Meta React cerifications
+                        <a target="_blank"
+                            href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a>
+                    </li>
+                    <li>Meta Backend cerifications
+                        <a target="_blank"
+                            href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a>
+                    </li>
+                    <li>Linkedin HTML cerifications
+                        <a target="_blank"
+                            href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a>
+                    </li>
+                    <li>Linkedin CSS cerifications
+                        <a target="_blank"
+                            href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a>
+                    </li>
+                    <li>Linkedin JS cerifications
+                        <a target="_blank"
+                            href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a>
+                    </li>
+                </ol>
+            </div>
+
+            <div id="ach">
+                <h1>Achivements</h1>
+                <ul class="m-l">
+                    <li>Got first rank in hackerrank dsa test.<a
+                        href="https://www.hackerrank.com/skills-verification/frontend_developer_react">🔗</a>
+                    </li>
+                    <li>Got first rank in hackerrank React test. <a
+                        href="https://www.hackerrank.com/skills-verification/frontend_developer_react">🔗</a>
+                    </li>               
+                 </ul>
+            </div>
+
+            <form action="">
+                <label for="">Type Your message</label><br>
+                <textarea required type="text"></textarea><br>
+                <label>Type your email</label><br />
+                <input required style="border: 1px solid black;" type="email" /><br />
+                <input type="submit" value="Submit message." />
+            </form>
+        </div>
+    </body>
+</html>
